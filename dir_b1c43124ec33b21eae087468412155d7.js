@@ -10,5 +10,7 @@ var dir_b1c43124ec33b21eae087468412155d7 =
       [ "IHeapElement", "interface_i_heap_element.html", "interface_i_heap_element" ],
       [ "Heap", "class_heap.html", "class_heap" ]
     ] ],
-    [ "Heuristic.cs", "_heuristic_8cs.html", null ]
+    [ "Heuristic.cs", "_heuristic_8cs.html", [
+      [ "Heuristic", "class_heuristic.html", "class_heuristic" ]
+    ] ]
 ];

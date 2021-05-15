@@ -110,7 +110,7 @@ Inheritance diagram for Pathfinding:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a79ea843943fc744e43260cbfbe3d82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#a5a79ea843943fc744e43260cbfbe3d82">SetSpeed</a> (<a class="el" href="_pathfinding_8cs.html#a1d2c86aa02706210300d240bca64c3d1">MoveSpeed</a> pace)</td></tr>
-<tr class="memdesc:a5a79ea843943fc744e43260cbfbe3d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">A publically accessible.  <a href="class_pathfinding.html#a5a79ea843943fc744e43260cbfbe3d82">More...</a><br /></td></tr>
+<tr class="memdesc:a5a79ea843943fc744e43260cbfbe3d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">A publically accessible function to set the velocity the dog moves at when travelling towwards a position node.  <a href="class_pathfinding.html#a5a79ea843943fc744e43260cbfbe3d82">More...</a><br /></td></tr>
 <tr class="separator:a5a79ea843943fc744e43260cbfbe3d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0707595aab9bc7518fd19e5f505aa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#a9f0707595aab9bc7518fd19e5f505aa5">IsSetToRandom</a> ()</td></tr>
 <tr class="memdesc:a9f0707595aab9bc7518fd19e5f505aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the script's target is currently set to the random point.  <a href="class_pathfinding.html#a9f0707595aab9bc7518fd19e5f505aa5">More...</a><br /></td></tr>
@@ -124,8 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45247f1d77e0228fd8c47c3f9fd4479c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#a45247f1d77e0228fd8c47c3f9fd4479c">SetTargetToRandom</a> ()</td></tr>
 <tr class="memdesc:a45247f1d77e0228fd8c47c3f9fd4479c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the script's current target to the random point object.  <a href="class_pathfinding.html#a45247f1d77e0228fd8c47c3f9fd4479c">More...</a><br /></td></tr>
 <tr class="separator:a45247f1d77e0228fd8c47c3f9fd4479c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8ad48ed6951bc09e9a4b8845a14ffe0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#ae8ad48ed6951bc09e9a4b8845a14ffe0">AttemptToReachTarget</a> ()</td></tr>
-<tr class="separator:ae8ad48ed6951bc09e9a4b8845a14ffe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550b08c60159a7102f189af86875ca89"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#a550b08c60159a7102f189af86875ca89">AttemptToReachTarget</a> ()</td></tr>
+<tr class="memdesc:a550b08c60159a7102f189af86875ca89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves this GameObject along a found A* path to a specified point and returns as true once the dog has reached that object.  <a href="class_pathfinding.html#a550b08c60159a7102f189af86875ca89">More...</a><br /></td></tr>
+<tr class="separator:a550b08c60159a7102f189af86875ca89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef979c77e42bf5581df5baec713172a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#aef979c77e42bf5581df5baec713172a5">GenerateRandomPointInWorld</a> (GameObject recievingObject)</td></tr>
 <tr class="memdesc:aef979c77e42bf5581df5baec713172a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locates a random traversable node on the ground plane grid and sets the random point GameObject's position to the node's position.  <a href="class_pathfinding.html#aef979c77e42bf5581df5baec713172a5">More...</a><br /></td></tr>
 <tr class="separator:aef979c77e42bf5581df5baec713172a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +149,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a09e221c488829888d1afbd7b2ed9b25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an A* path to a specified object in the world.  <a href="class_pathfinding.html#a09e221c488829888d1afbd7b2ed9b25a">More...</a><br /></td></tr>
 <tr class="separator:a09e221c488829888d1afbd7b2ed9b25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac09e6b36f8c1572f58af793b68073cbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#ac09e6b36f8c1572f58af793b68073cbd">OnTriggerEnter</a> (Collider collision)</td></tr>
-<tr class="memdesc:ac09e6b36f8c1572f58af793b68073cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects when the dog has collided with (reached) its current target. This will allow <a class="el" href="class_pathfinding.html#ae8ad48ed6951bc09e9a4b8845a14ffe0">AttemptToReachTarget()</a> to return as true.  <a href="class_pathfinding.html#ac09e6b36f8c1572f58af793b68073cbd">More...</a><br /></td></tr>
+<tr class="memdesc:ac09e6b36f8c1572f58af793b68073cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects when the dog has collided with (reached) its current target. This will allow <a class="el" href="class_pathfinding.html#a550b08c60159a7102f189af86875ca89" title="Moves this GameObject along a found A* path to a specified point and returns as true once the dog has...">AttemptToReachTarget()</a> to return as true.  <a href="class_pathfinding.html#ac09e6b36f8c1572f58af793b68073cbd">More...</a><br /></td></tr>
 <tr class="separator:ac09e6b36f8c1572f58af793b68073cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fe34ff91126d9e2bd11be315e56275"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pathfinding.html#a42fe34ff91126d9e2bd11be315e56275">MoveDog</a> ()</td></tr>
 <tr class="memdesc:a42fe34ff91126d9e2bd11be315e56275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the dog's rigidbody velocity to its current movement speed in its local direction of forwards - to the direction it's rotated towwards.  <a href="class_pathfinding.html#a42fe34ff91126d9e2bd11be315e56275">More...</a><br /></td></tr>
@@ -203,8 +204,8 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains functions which utilise the A* pathfinding classes/functionalities to move the dog towards its targets at specified speeds and detect when it has reached them. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae8ad48ed6951bc09e9a4b8845a14ffe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8ad48ed6951bc09e9a4b8845a14ffe0">&#9670;&nbsp;</a></span>AttemptToReachTarget()</h2>
+<a id="a550b08c60159a7102f189af86875ca89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550b08c60159a7102f189af86875ca89">&#9670;&nbsp;</a></span>AttemptToReachTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +214,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Pathfinding.AttemptToReachTarget </td>
+          <td class="memname">Pathfinding.AttemptToReachTarget </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -225,6 +226,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Moves this GameObject along a found A* path to a specified point and returns as true once the dog has reached that object. </p>
 
 </div>
 </div>
@@ -468,7 +471,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Detects when the dog has collided with (reached) its current target. This will allow <a class="el" href="class_pathfinding.html#ae8ad48ed6951bc09e9a4b8845a14ffe0">AttemptToReachTarget()</a> to return as true. </p>
+<p>Detects when the dog has collided with (reached) its current target. This will allow <a class="el" href="class_pathfinding.html#a550b08c60159a7102f189af86875ca89" title="Moves this GameObject along a found A* path to a specified point and returns as true once the dog has...">AttemptToReachTarget()</a> to return as true. </p>
 
 </div>
 </div>
@@ -496,7 +499,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A publically accessible. </p>
+<p>A publically accessible function to set the velocity the dog moves at when travelling towwards a position node. </p>
 
 </div>
 </div>

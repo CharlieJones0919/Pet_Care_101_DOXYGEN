@@ -2,7 +2,7 @@ var class_dog =
 [
     [ "AllGood", "class_dog.html#a271ce54dd757c4e824c0c81398b180f3", null ],
     [ "Awake", "class_dog.html#a0082adad7652cc0e2ef13bfc012265d1", null ],
-    [ "CanFindBed", "class_dog.html#ab40596b66287f45206798e7c76b5f296", null ],
+    [ "CanFindBed", "class_dog.html#a25152015db3af9cbb7d4663b2c7d0a49", null ],
     [ "CanFindFood", "class_dog.html#a2288c5fab22ec2db562cb188e1ff06d9", null ],
     [ "CanFindToys", "class_dog.html#a8b4690a342eb998c64bc6a7ddbe9e33b", null ],
     [ "CannotFindBed", "class_dog.html#a6d9a8e632c4af16b3d4ca998e0acc2c0", null ],

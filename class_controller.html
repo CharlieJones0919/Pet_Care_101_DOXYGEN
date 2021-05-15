@@ -110,56 +110,57 @@ Inheritance diagram for Controller:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aed0dc7635ee04d0d41b2f3145565fecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aed0dc7635ee04d0d41b2f3145565fecf">PAUSE</a> (bool state)</td></tr>
-<tr class="memdesc:aed0dc7635ee04d0d41b2f3145565fecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the game's time scale to pause or play the game based on its bool parameter.  <a href="class_controller.html#aed0dc7635ee04d0d41b2f3145565fecf">More...</a><br /></td></tr>
-<tr class="separator:aed0dc7635ee04d0d41b2f3145565fecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a317ed57791e28f6b4f09a634bee514fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a317ed57791e28f6b4f09a634bee514fd">FASTFORWARD</a> ()</td></tr>
-<tr class="memdesc:a317ed57791e28f6b4f09a634bee514fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the game's time scale to speed up the game to it's maximum value. Called by the fast forward button.  <a href="class_controller.html#a317ed57791e28f6b4f09a634bee514fd">More...</a><br /></td></tr>
-<tr class="separator:a317ed57791e28f6b4f09a634bee514fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7116ed1e0e179cfa53e277a3e34877ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a7116ed1e0e179cfa53e277a3e34877ab">AddDog</a> (<a class="el" href="class_dog.html">Dog</a> newDog)</td></tr>
-<tr class="memdesc:a7116ed1e0e179cfa53e277a3e34877ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_dog_generation.html" title="This class is responcible for creating the Dog instances when triggered to by GameTime,...">DogGeneration</a> when a new dog is made daily to add the new instance to the controller's list of dogs, and to activate the new dog screen panel.  <a href="class_controller.html#a7116ed1e0e179cfa53e277a3e34877ab">More...</a><br /></td></tr>
-<tr class="separator:a7116ed1e0e179cfa53e277a3e34877ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f96759139f6c8747ae3acca2285479"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a80f96759139f6c8747ae3acca2285479">NumberOfDogs</a> ()</td></tr>
-<tr class="memdesc:a80f96759139f6c8747ae3acca2285479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of active dogs.  <a href="class_controller.html#a80f96759139f6c8747ae3acca2285479">More...</a><br /></td></tr>
-<tr class="separator:a80f96759139f6c8747ae3acca2285479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1885873731fde3db05e2534e2adca352"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; GameObject, <a class="el" href="class_dog.html">Dog</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a1885873731fde3db05e2534e2adca352">GetAllDogs</a> ()</td></tr>
-<tr class="memdesc:a1885873731fde3db05e2534e2adca352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Dictionary of all world dogs.  <a href="class_controller.html#a1885873731fde3db05e2534e2adca352">More...</a><br /></td></tr>
-<tr class="separator:a1885873731fde3db05e2534e2adca352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d9549b4418b3e977152ac2ead2cafc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a24d9549b4418b3e977152ac2ead2cafc">AddToItemPools</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> itemGroup, <a class="el" href="class_item.html">Item</a> item)</td></tr>
-<tr class="memdesc:a24d9549b4418b3e977152ac2ead2cafc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the <a class="el" href="class_store_controller.html" title="Controls the Items displayed in the Store menu. Instantiates said Items and manages the store UI to o...">StoreController</a> to add a new item to the <a class="el" href="class_controller.html" title="Keeps references to widely used objects and scripts for other classes to use. Allows for game time co...">Controller</a>'s complete list of items possible to purchase.  <a href="class_controller.html#a24d9549b4418b3e977152ac2ead2cafc">More...</a><br /></td></tr>
-<tr class="separator:a24d9549b4418b3e977152ac2ead2cafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac54aa6a1233045a82c6d90da9f391dc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#ac54aa6a1233045a82c6d90da9f391dc7">GetActiveItemFor</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> requiredType, <a class="el" href="class_dog.html">Dog</a> attemptingDog)</td></tr>
-<tr class="memdesc:ac54aa6a1233045a82c6d90da9f391dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether or not there is an item of the requested type available for use of the given dog in the item pool. If it is, the item itself will set the dog's current target to the available instance via the reference passed in as a parameter.  <a href="class_controller.html#ac54aa6a1233045a82c6d90da9f391dc7">More...</a><br /></td></tr>
-<tr class="separator:ac54aa6a1233045a82c6d90da9f391dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53952afab9c65220396dfee6870bb3c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a53952afab9c65220396dfee6870bb3c4">GetClosestActiveItemFor</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> requiredType, <a class="el" href="class_dog.html">Dog</a> attemptingDog)</td></tr>
-<tr class="memdesc:a53952afab9c65220396dfee6870bb3c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="class_controller.html#ac54aa6a1233045a82c6d90da9f391dc7" title="Returns whether or not there is an item of the requested type available for use of the given dog in t...">GetActiveItemFor()</a>, but tries to identify the closest item instance to the given dog.  <a href="class_controller.html#a53952afab9c65220396dfee6870bb3c4">More...</a><br /></td></tr>
-<tr class="separator:a53952afab9c65220396dfee6870bb3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ca8ade929177d8b865b660556bde80d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a4ca8ade929177d8b865b660556bde80d">EndItemUse</a> (<a class="el" href="class_item.html">Item</a> item, GameObject instance)</td></tr>
-<tr class="memdesc:a4ca8ade929177d8b865b660556bde80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the item's end use script, and if it was a temporary item which will be deactivated from the world, the position it was using will be made free again by setting its dictionary value back to false.  <a href="class_controller.html#a4ca8ade929177d8b865b660556bde80d">More...</a><br /></td></tr>
-<tr class="separator:a4ca8ade929177d8b865b660556bde80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a405cc2b47d858d9f2d826a63c3520dfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a405cc2b47d858d9f2d826a63c3520dfb">AgeDogs</a> ()</td></tr>
-<tr class="memdesc:a405cc2b47d858d9f2d826a63c3520dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every year in game time to increase the age of all the dogs. (Doesn't really do anything at current as dog death didn't get implemented due to time constraints).  <a href="class_controller.html#a405cc2b47d858d9f2d826a63c3520dfb">More...</a><br /></td></tr>
-<tr class="separator:a405cc2b47d858d9f2d826a63c3520dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a685bf3b9eaf7e65f7ddfab99fe900e76"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a685bf3b9eaf7e65f7ddfab99fe900e76">GetPlayerMoney</a> ()</td></tr>
-<tr class="memdesc:a685bf3b9eaf7e65f7ddfab99fe900e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the player's money value indirectly via a float. (To prevent other classes from changing the real variable's value).  <a href="class_controller.html#a685bf3b9eaf7e65f7ddfab99fe900e76">More...</a><br /></td></tr>
-<tr class="separator:a685bf3b9eaf7e65f7ddfab99fe900e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a1e00c23d44345237098279b0ac06b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#ab7a1e00c23d44345237098279b0ac06b">GiveAllowance</a> ()</td></tr>
-<tr class="memdesc:ab7a1e00c23d44345237098279b0ac06b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the player's money by the set daily allowance value.  <a href="class_controller.html#ab7a1e00c23d44345237098279b0ac06b">More...</a><br /></td></tr>
-<tr class="separator:ab7a1e00c23d44345237098279b0ac06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0b4b51ba231ddd375b84f18b57ff946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aa0b4b51ba231ddd375b84f18b57ff946">GiveGoodCareBonus</a> ()</td></tr>
-<tr class="memdesc:aa0b4b51ba231ddd375b84f18b57ff946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bonus pay given by a <a class="el" href="class_dog.html" title="This class contains the implementations of functions (or behaviour actions) that can be employed by t...">Dog</a> class if all of their care values are in good states.  <a href="class_controller.html#aa0b4b51ba231ddd375b84f18b57ff946">More...</a><br /></td></tr>
-<tr class="separator:aa0b4b51ba231ddd375b84f18b57ff946"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af99ecddd2f05296f010ec5291cb43951"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#af99ecddd2f05296f010ec5291cb43951">HasEnoughMoney</a> (float cost)</td></tr>
-<tr class="memdesc:af99ecddd2f05296f010ec5291cb43951"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the store controller to check if the player has enough money to pay for an item.  <a href="class_controller.html#af99ecddd2f05296f010ec5291cb43951">More...</a><br /></td></tr>
-<tr class="separator:af99ecddd2f05296f010ec5291cb43951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaff22699742c85d4c8f6b69e6842baa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#adaff22699742c85d4c8f6b69e6842baa">PAUSE</a> (bool state)</td></tr>
+<tr class="memdesc:adaff22699742c85d4c8f6b69e6842baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the game's time scale to pause or play the game based on its bool parameter.  <a href="class_controller.html#adaff22699742c85d4c8f6b69e6842baa">More...</a><br /></td></tr>
+<tr class="separator:adaff22699742c85d4c8f6b69e6842baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce26def19ab4f73e545c373ef7cf46a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a4ce26def19ab4f73e545c373ef7cf46a">FASTFORWARD</a> ()</td></tr>
+<tr class="memdesc:a4ce26def19ab4f73e545c373ef7cf46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the game's time scale to speed up the game to it's maximum value. Called by the fast forward button.  <a href="class_controller.html#a4ce26def19ab4f73e545c373ef7cf46a">More...</a><br /></td></tr>
+<tr class="separator:a4ce26def19ab4f73e545c373ef7cf46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f2884c4aa5c59e5a628fc91b98932e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a81f2884c4aa5c59e5a628fc91b98932e">AddDog</a> (<a class="el" href="class_dog.html">Dog</a> newDog)</td></tr>
+<tr class="memdesc:a81f2884c4aa5c59e5a628fc91b98932e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_dog_generation.html" title="This class is responcible for creating the Dog instances when triggered to by GameTime,...">DogGeneration</a> when a new dog is made daily to add the new instance to the controller's list of dogs, and to activate the new dog screen panel.  <a href="class_controller.html#a81f2884c4aa5c59e5a628fc91b98932e">More...</a><br /></td></tr>
+<tr class="separator:a81f2884c4aa5c59e5a628fc91b98932e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342c87363dada886afbb0271f9e26357"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a342c87363dada886afbb0271f9e26357">NumberOfDogs</a> ()</td></tr>
+<tr class="memdesc:a342c87363dada886afbb0271f9e26357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of active dogs.  <a href="class_controller.html#a342c87363dada886afbb0271f9e26357">More...</a><br /></td></tr>
+<tr class="separator:a342c87363dada886afbb0271f9e26357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7286d624b2e8379baa9b9ad2879e848c"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; GameObject, <a class="el" href="class_dog.html">Dog</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a7286d624b2e8379baa9b9ad2879e848c">GetAllDogs</a> ()</td></tr>
+<tr class="memdesc:a7286d624b2e8379baa9b9ad2879e848c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Dictionary of all world dogs.  <a href="class_controller.html#a7286d624b2e8379baa9b9ad2879e848c">More...</a><br /></td></tr>
+<tr class="separator:a7286d624b2e8379baa9b9ad2879e848c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfb1e2247b5ffab0f3de13941344d9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#acbfb1e2247b5ffab0f3de13941344d9a">AddToItemPools</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> itemGroup, <a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="memdesc:acbfb1e2247b5ffab0f3de13941344d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the <a class="el" href="class_store_controller.html" title="Controls the Items displayed in the Store menu. Instantiates said Items and manages the store UI to o...">StoreController</a> to add a new item to the <a class="el" href="class_controller.html" title="Keeps references to widely used objects and scripts for other classes to use. Allows for game time co...">Controller</a>'s complete list of items possible to purchase.  <a href="class_controller.html#acbfb1e2247b5ffab0f3de13941344d9a">More...</a><br /></td></tr>
+<tr class="separator:acbfb1e2247b5ffab0f3de13941344d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bddb9afd0cdcb001146d7c7abad3ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a7bddb9afd0cdcb001146d7c7abad3ac1">GetActiveItemFor</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> requiredType, <a class="el" href="class_dog.html">Dog</a> attemptingDog)</td></tr>
+<tr class="memdesc:a7bddb9afd0cdcb001146d7c7abad3ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether or not there is an item of the requested type available for use of the given dog in the item pool. If it is, the item itself will set the dog's current target to the available instance via the reference passed in as a parameter.  <a href="class_controller.html#a7bddb9afd0cdcb001146d7c7abad3ac1">More...</a><br /></td></tr>
+<tr class="separator:a7bddb9afd0cdcb001146d7c7abad3ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba516cf2d668362992fb0bca2a7ead85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aba516cf2d668362992fb0bca2a7ead85">GetClosestActiveItemFor</a> (<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a> requiredType, <a class="el" href="class_dog.html">Dog</a> attemptingDog)</td></tr>
+<tr class="memdesc:aba516cf2d668362992fb0bca2a7ead85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="class_controller.html#a7bddb9afd0cdcb001146d7c7abad3ac1" title="Returns whether or not there is an item of the requested type available for use of the given dog in t...">GetActiveItemFor()</a>, but tries to identify the closest item instance to the given dog.  <a href="class_controller.html#aba516cf2d668362992fb0bca2a7ead85">More...</a><br /></td></tr>
+<tr class="separator:aba516cf2d668362992fb0bca2a7ead85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637288a322b84a7b3ed809e74787c6c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a637288a322b84a7b3ed809e74787c6c8">EndItemUse</a> (<a class="el" href="class_item.html">Item</a> item, GameObject instance)</td></tr>
+<tr class="memdesc:a637288a322b84a7b3ed809e74787c6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the item's end use script, and if it was a temporary item which will be deactivated from the world, the position it was using will be made free again by setting its dictionary value back to false.  <a href="class_controller.html#a637288a322b84a7b3ed809e74787c6c8">More...</a><br /></td></tr>
+<tr class="separator:a637288a322b84a7b3ed809e74787c6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0f79514a5d45458a4a62b918b2dc58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a1a0f79514a5d45458a4a62b918b2dc58">AgeDogs</a> ()</td></tr>
+<tr class="memdesc:a1a0f79514a5d45458a4a62b918b2dc58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every year in game time to increase the age of all the dogs. (Doesn't really do anything at current as dog death didn't get implemented due to time constraints).  <a href="class_controller.html#a1a0f79514a5d45458a4a62b918b2dc58">More...</a><br /></td></tr>
+<tr class="separator:a1a0f79514a5d45458a4a62b918b2dc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a80e7dbecc54385bff20ded6f78553e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a9a80e7dbecc54385bff20ded6f78553e">GetPlayerMoney</a> ()</td></tr>
+<tr class="memdesc:a9a80e7dbecc54385bff20ded6f78553e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the player's money value indirectly via a float. (To prevent other classes from changing the real variable's value).  <a href="class_controller.html#a9a80e7dbecc54385bff20ded6f78553e">More...</a><br /></td></tr>
+<tr class="separator:a9a80e7dbecc54385bff20ded6f78553e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45b02ba32d5d5f3df0236c2953d8619d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a45b02ba32d5d5f3df0236c2953d8619d">GiveAllowance</a> ()</td></tr>
+<tr class="memdesc:a45b02ba32d5d5f3df0236c2953d8619d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the player's money by the set daily allowance value.  <a href="class_controller.html#a45b02ba32d5d5f3df0236c2953d8619d">More...</a><br /></td></tr>
+<tr class="separator:a45b02ba32d5d5f3df0236c2953d8619d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c6d09ed4d90f7972ae45b1411ec3ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a16c6d09ed4d90f7972ae45b1411ec3ee">GiveGoodCareBonus</a> ()</td></tr>
+<tr class="memdesc:a16c6d09ed4d90f7972ae45b1411ec3ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bonus pay given by a <a class="el" href="class_dog.html" title="This class contains the implementations of functions (or behaviour actions) that can be employed by t...">Dog</a> class if all of their care values are in good states.  <a href="class_controller.html#a16c6d09ed4d90f7972ae45b1411ec3ee">More...</a><br /></td></tr>
+<tr class="separator:a16c6d09ed4d90f7972ae45b1411ec3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af248cd2d49cb3e736c8488c462e3a026"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#af248cd2d49cb3e736c8488c462e3a026">HasEnoughMoney</a> (float cost)</td></tr>
+<tr class="memdesc:af248cd2d49cb3e736c8488c462e3a026"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the store controller to check if the player has enough money to pay for an item.  <a href="class_controller.html#af248cd2d49cb3e736c8488c462e3a026">More...</a><br /></td></tr>
+<tr class="separator:af248cd2d49cb3e736c8488c462e3a026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40dbc7407e66866da3ae59eff4b09101"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a40dbc7407e66866da3ae59eff4b09101">MakePurchase</a> (float cost)</td></tr>
+<tr class="memdesc:a40dbc7407e66866da3ae59eff4b09101"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the store controller to pay for an item. (Subtracts the item's price from the player's money).  <a href="class_controller.html#a40dbc7407e66866da3ae59eff4b09101">More...</a><br /></td></tr>
 <tr class="separator:a40dbc7407e66866da3ae59eff4b09101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7139b2d096b0db3a0cce2fdfe622a308"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a7139b2d096b0db3a0cce2fdfe622a308">InsufficientFundsCheck</a> ()</td></tr>
-<tr class="memdesc:a7139b2d096b0db3a0cce2fdfe622a308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a tip message if the player is out of money.  <a href="class_controller.html#a7139b2d096b0db3a0cce2fdfe622a308">More...</a><br /></td></tr>
-<tr class="separator:a7139b2d096b0db3a0cce2fdfe622a308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a953cecb2fd06d5b121eb71fe6ae19df5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a953cecb2fd06d5b121eb71fe6ae19df5">NotFocusedOnDog</a> ()</td></tr>
-<tr class="memdesc:a953cecb2fd06d5b121eb71fe6ae19df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all dogs to not be in focus if the DogInfoPanel is closed.  <a href="class_controller.html#a953cecb2fd06d5b121eb71fe6ae19df5">More...</a><br /></td></tr>
-<tr class="separator:a953cecb2fd06d5b121eb71fe6ae19df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7d92f701c31bbc9bc91e6b613009d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a6d7d92f701c31bbc9bc91e6b613009d7">InsufficientFundsCheck</a> ()</td></tr>
+<tr class="memdesc:a6d7d92f701c31bbc9bc91e6b613009d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a tip message if the player is out of money.  <a href="class_controller.html#a6d7d92f701c31bbc9bc91e6b613009d7">More...</a><br /></td></tr>
+<tr class="separator:a6d7d92f701c31bbc9bc91e6b613009d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcee4fdef4b772edd189973091d06623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#adcee4fdef4b772edd189973091d06623">NotFocusedOnDog</a> ()</td></tr>
+<tr class="memdesc:adcee4fdef4b772edd189973091d06623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all dogs to not be in focus if the DogInfoPanel is closed.  <a href="class_controller.html#adcee4fdef4b772edd189973091d06623">More...</a><br /></td></tr>
+<tr class="separator:adcee4fdef4b772edd189973091d06623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -193,9 +194,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a734ecdaf65f08e25de09996261a3505c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a734ecdaf65f08e25de09996261a3505c">UpdateMoneyValue</a> (float modification)</td></tr>
-<tr class="memdesc:a734ecdaf65f08e25de09996261a3505c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the player's money value and the related UI textboxes.  <a href="class_controller.html#a734ecdaf65f08e25de09996261a3505c">More...</a><br /></td></tr>
-<tr class="separator:a734ecdaf65f08e25de09996261a3505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fdf81d20160e03c3d9cb5cb509e6ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a38fdf81d20160e03c3d9cb5cb509e6ad">UpdateMoneyValue</a> (float modification)</td></tr>
+<tr class="memdesc:a38fdf81d20160e03c3d9cb5cb509e6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the player's money value and the related UI textboxes.  <a href="class_controller.html#a38fdf81d20160e03c3d9cb5cb509e6ad">More...</a><br /></td></tr>
+<tr class="separator:a38fdf81d20160e03c3d9cb5cb509e6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -230,8 +231,8 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Keeps references to widely used objects and scripts for other classes to use. Allows for game time controls. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7116ed1e0e179cfa53e277a3e34877ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7116ed1e0e179cfa53e277a3e34877ab">&#9670;&nbsp;</a></span>AddDog()</h2>
+<a id="a81f2884c4aa5c59e5a628fc91b98932e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81f2884c4aa5c59e5a628fc91b98932e">&#9670;&nbsp;</a></span>AddDog()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +241,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.AddDog </td>
+          <td class="memname">void Controller.AddDog </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_dog.html">Dog</a>&#160;</td>
           <td class="paramname"><em>newDog</em></td><td>)</td>
@@ -264,8 +265,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a24d9549b4418b3e977152ac2ead2cafc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24d9549b4418b3e977152ac2ead2cafc">&#9670;&nbsp;</a></span>AddToItemPools()</h2>
+<a id="acbfb1e2247b5ffab0f3de13941344d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfb1e2247b5ffab0f3de13941344d9a">&#9670;&nbsp;</a></span>AddToItemPools()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +275,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.AddToItemPools </td>
+          <td class="memname">void Controller.AddToItemPools </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>&#160;</td>
           <td class="paramname"><em>itemGroup</em>, </td>
@@ -302,8 +303,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a405cc2b47d858d9f2d826a63c3520dfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a405cc2b47d858d9f2d826a63c3520dfb">&#9670;&nbsp;</a></span>AgeDogs()</h2>
+<a id="a1a0f79514a5d45458a4a62b918b2dc58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0f79514a5d45458a4a62b918b2dc58">&#9670;&nbsp;</a></span>AgeDogs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +313,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.AgeDogs </td>
+          <td class="memname">void Controller.AgeDogs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -329,8 +330,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ca8ade929177d8b865b660556bde80d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca8ade929177d8b865b660556bde80d">&#9670;&nbsp;</a></span>EndItemUse()</h2>
+<a id="a637288a322b84a7b3ed809e74787c6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637288a322b84a7b3ed809e74787c6c8">&#9670;&nbsp;</a></span>EndItemUse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +340,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.EndItemUse </td>
+          <td class="memname">void Controller.EndItemUse </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
           <td class="paramname"><em>item</em>, </td>
@@ -367,8 +368,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a317ed57791e28f6b4f09a634bee514fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a317ed57791e28f6b4f09a634bee514fd">&#9670;&nbsp;</a></span>FASTFORWARD()</h2>
+<a id="a4ce26def19ab4f73e545c373ef7cf46a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce26def19ab4f73e545c373ef7cf46a">&#9670;&nbsp;</a></span>FASTFORWARD()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +378,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.FASTFORWARD </td>
+          <td class="memname">void Controller.FASTFORWARD </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -394,8 +395,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac54aa6a1233045a82c6d90da9f391dc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac54aa6a1233045a82c6d90da9f391dc7">&#9670;&nbsp;</a></span>GetActiveItemFor()</h2>
+<a id="a7bddb9afd0cdcb001146d7c7abad3ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bddb9afd0cdcb001146d7c7abad3ac1">&#9670;&nbsp;</a></span>GetActiveItemFor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +405,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GetActiveItemFor </td>
+          <td class="memname">bool Controller.GetActiveItemFor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>&#160;</td>
           <td class="paramname"><em>requiredType</em>, </td>
@@ -432,8 +433,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1885873731fde3db05e2534e2adca352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1885873731fde3db05e2534e2adca352">&#9670;&nbsp;</a></span>GetAllDogs()</h2>
+<a id="a7286d624b2e8379baa9b9ad2879e848c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7286d624b2e8379baa9b9ad2879e848c">&#9670;&nbsp;</a></span>GetAllDogs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +443,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GetAllDogs </td>
+          <td class="memname">Dictionary&lt;GameObject, <a class="el" href="class_dog.html">Dog</a>&gt; Controller.GetAllDogs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -459,8 +460,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a53952afab9c65220396dfee6870bb3c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53952afab9c65220396dfee6870bb3c4">&#9670;&nbsp;</a></span>GetClosestActiveItemFor()</h2>
+<a id="aba516cf2d668362992fb0bca2a7ead85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba516cf2d668362992fb0bca2a7ead85">&#9670;&nbsp;</a></span>GetClosestActiveItemFor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +470,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GetClosestActiveItemFor </td>
+          <td class="memname">bool Controller.GetClosestActiveItemFor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>&#160;</td>
           <td class="paramname"><em>requiredType</em>, </td>
@@ -493,12 +494,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The same as <a class="el" href="class_controller.html#ac54aa6a1233045a82c6d90da9f391dc7" title="Returns whether or not there is an item of the requested type available for use of the given dog in t...">GetActiveItemFor()</a>, but tries to identify the closest item instance to the given dog. </p>
+<p>The same as <a class="el" href="class_controller.html#a7bddb9afd0cdcb001146d7c7abad3ac1" title="Returns whether or not there is an item of the requested type available for use of the given dog in t...">GetActiveItemFor()</a>, but tries to identify the closest item instance to the given dog. </p>
 
 </div>
 </div>
-<a id="a685bf3b9eaf7e65f7ddfab99fe900e76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a685bf3b9eaf7e65f7ddfab99fe900e76">&#9670;&nbsp;</a></span>GetPlayerMoney()</h2>
+<a id="a9a80e7dbecc54385bff20ded6f78553e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a80e7dbecc54385bff20ded6f78553e">&#9670;&nbsp;</a></span>GetPlayerMoney()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +508,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GetPlayerMoney </td>
+          <td class="memname">float Controller.GetPlayerMoney </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -524,8 +525,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7a1e00c23d44345237098279b0ac06b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7a1e00c23d44345237098279b0ac06b">&#9670;&nbsp;</a></span>GiveAllowance()</h2>
+<a id="a45b02ba32d5d5f3df0236c2953d8619d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45b02ba32d5d5f3df0236c2953d8619d">&#9670;&nbsp;</a></span>GiveAllowance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +535,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GiveAllowance </td>
+          <td class="memname">void Controller.GiveAllowance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -551,8 +552,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa0b4b51ba231ddd375b84f18b57ff946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0b4b51ba231ddd375b84f18b57ff946">&#9670;&nbsp;</a></span>GiveGoodCareBonus()</h2>
+<a id="a16c6d09ed4d90f7972ae45b1411ec3ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16c6d09ed4d90f7972ae45b1411ec3ee">&#9670;&nbsp;</a></span>GiveGoodCareBonus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,7 +562,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.GiveGoodCareBonus </td>
+          <td class="memname">void Controller.GiveGoodCareBonus </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -578,8 +579,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af99ecddd2f05296f010ec5291cb43951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af99ecddd2f05296f010ec5291cb43951">&#9670;&nbsp;</a></span>HasEnoughMoney()</h2>
+<a id="af248cd2d49cb3e736c8488c462e3a026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af248cd2d49cb3e736c8488c462e3a026">&#9670;&nbsp;</a></span>HasEnoughMoney()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +589,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.HasEnoughMoney </td>
+          <td class="memname">bool Controller.HasEnoughMoney </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>cost</em></td><td>)</td>
@@ -603,12 +604,11 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>For the store controller to check if the player has enough money to pay for an item. </p>
-<p>For the store controller to pay for an item. (Subtracts the item's price from the player's money). </p>
 
 </div>
 </div>
-<a id="a7139b2d096b0db3a0cce2fdfe622a308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7139b2d096b0db3a0cce2fdfe622a308">&#9670;&nbsp;</a></span>InsufficientFundsCheck()</h2>
+<a id="a6d7d92f701c31bbc9bc91e6b613009d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7d92f701c31bbc9bc91e6b613009d7">&#9670;&nbsp;</a></span>InsufficientFundsCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,7 +617,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.InsufficientFundsCheck </td>
+          <td class="memname">void Controller.InsufficientFundsCheck </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -658,10 +658,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>For the store controller to pay for an item. (Subtracts the item's price from the player's money). </p>
+
 </div>
 </div>
-<a id="a953cecb2fd06d5b121eb71fe6ae19df5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a953cecb2fd06d5b121eb71fe6ae19df5">&#9670;&nbsp;</a></span>NotFocusedOnDog()</h2>
+<a id="adcee4fdef4b772edd189973091d06623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcee4fdef4b772edd189973091d06623">&#9670;&nbsp;</a></span>NotFocusedOnDog()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -670,7 +672,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.NotFocusedOnDog </td>
+          <td class="memname">void Controller.NotFocusedOnDog </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -687,8 +689,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a80f96759139f6c8747ae3acca2285479"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80f96759139f6c8747ae3acca2285479">&#9670;&nbsp;</a></span>NumberOfDogs()</h2>
+<a id="a342c87363dada886afbb0271f9e26357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342c87363dada886afbb0271f9e26357">&#9670;&nbsp;</a></span>NumberOfDogs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,7 +699,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.NumberOfDogs </td>
+          <td class="memname">int Controller.NumberOfDogs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -714,8 +716,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aed0dc7635ee04d0d41b2f3145565fecf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed0dc7635ee04d0d41b2f3145565fecf">&#9670;&nbsp;</a></span>PAUSE()</h2>
+<a id="adaff22699742c85d4c8f6b69e6842baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaff22699742c85d4c8f6b69e6842baa">&#9670;&nbsp;</a></span>PAUSE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -724,7 +726,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.PAUSE </td>
+          <td class="memname">void Controller.PAUSE </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>state</em></td><td>)</td>
@@ -748,8 +750,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a734ecdaf65f08e25de09996261a3505c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a734ecdaf65f08e25de09996261a3505c">&#9670;&nbsp;</a></span>UpdateMoneyValue()</h2>
+<a id="a38fdf81d20160e03c3d9cb5cb509e6ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38fdf81d20160e03c3d9cb5cb509e6ad">&#9670;&nbsp;</a></span>UpdateMoneyValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -758,7 +760,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.UpdateMoneyValue </td>
+          <td class="memname">void Controller.UpdateMoneyValue </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>modification</em></td><td>)</td>

@@ -8,6 +8,7 @@ var hierarchy =
     [ "CareProperty", "class_care_property.html", null ],
     [ "Heap< T >", "class_heap.html", null ],
     [ "Heap< ASNode >", "class_heap.html", null ],
+    [ "Heuristic", "class_heuristic.html", null ],
     [ "IComparable", null, [
       [ "IHeapElement< T >", "interface_i_heap_element.html", null ]
     ] ],
@@ -18,7 +19,6 @@ var hierarchy =
       [ "Item", "class_item.html", null ]
     ] ],
     [ "DogGeneration.ModelOrientation", "struct_dog_generation_1_1_model_orientation.html", null ],
-    [ "ModelOrientation", "struct_model_orientation.html", null ],
     [ "MonoBehaviour", null, [
       [ "AnimationManagement", "class_animation_management.html", null ],
       [ "AStarSearch", "class_a_star_search.html", null ],
