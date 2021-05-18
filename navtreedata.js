@@ -50,8 +50,8 @@ var NAVTREEINDEX =
 [
 "_a_s_node_8cs.html",
 "class_controller.html#a9a80e7dbecc54385bff20ded6f78553e",
-"class_game_time.html#ac58daf9d3a9d84b210fca3a82b119c74",
-"functions_enum.html"
+"class_game_time.html#adb57edf23afccb00575784c9d4087b49",
+"functions_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

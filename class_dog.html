@@ -189,18 +189,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6a36b21a0326718fa89cf883d9201119"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#a6a36b21a0326718fa89cf883d9201119">GlobalSequences</a> = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td></tr>
 <tr class="memdesc:a6a36b21a0326718fa89cf883d9201119"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sequence of BT node checks general values which shouldn't result in state changes. Includes a check for if the dog is in good health and the others are for setting the dog's walking speed.  <a href="class_dog.html#a6a36b21a0326718fa89cf883d9201119">More...</a><br /></td></tr>
 <tr class="separator:a6a36b21a0326718fa89cf883d9201119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27917372d879075df65b5d34445d8145"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#a27917372d879075df65b5d34445d8145">IdleEndSequences</a> = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td></tr>
-<tr class="memdesc:a27917372d879075df65b5d34445d8145"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_idle.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Idle</a> state.  <a href="class_dog.html#a27917372d879075df65b5d34445d8145">More...</a><br /></td></tr>
-<tr class="separator:a27917372d879075df65b5d34445d8145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01c7fdd3db284e12b3b4debf7482fca8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#a01c7fdd3db284e12b3b4debf7482fca8">HungryEndSequences</a> = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td></tr>
-<tr class="memdesc:a01c7fdd3db284e12b3b4debf7482fca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the Hunger state.  <a href="class_dog.html#a01c7fdd3db284e12b3b4debf7482fca8">More...</a><br /></td></tr>
-<tr class="separator:a01c7fdd3db284e12b3b4debf7482fca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d74d306cc5feb2a855848aea17cd54e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#a3d74d306cc5feb2a855848aea17cd54e">TiredEndSequences</a> = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td></tr>
-<tr class="memdesc:a3d74d306cc5feb2a855848aea17cd54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_tired.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Tired</a> state.  <a href="class_dog.html#a3d74d306cc5feb2a855848aea17cd54e">More...</a><br /></td></tr>
-<tr class="separator:a3d74d306cc5feb2a855848aea17cd54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af919c38fdd35fe2ecea11760c4d30efa"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#af919c38fdd35fe2ecea11760c4d30efa">PlayfulEndSequences</a> = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td></tr>
-<tr class="memdesc:af919c38fdd35fe2ecea11760c4d30efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_playful.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Playful</a> state.  <a href="class_dog.html#af919c38fdd35fe2ecea11760c4d30efa">More...</a><br /></td></tr>
-<tr class="separator:af919c38fdd35fe2ecea11760c4d30efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e91d7dd2e0857f506a5a62667129da"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; Type, List&lt; <a class="el" href="class_b_t_sequence.html">BTSequence</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog.html#ac2e91d7dd2e0857f506a5a62667129da">ExitStateSeqeunces</a> = new Dictionary&lt;Type, List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;&gt;()</td></tr>
+<tr class="memdesc:ac2e91d7dd2e0857f506a5a62667129da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value is a sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the state type of the list's key.  <a href="class_dog.html#ac2e91d7dd2e0857f506a5a62667129da">More...</a><br /></td></tr>
+<tr class="separator:ac2e91d7dd2e0857f506a5a62667129da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -3826,6 +3817,22 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac2e91d7dd2e0857f506a5a62667129da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e91d7dd2e0857f506a5a62667129da">&#9670;&nbsp;</a></span>ExitStateSeqeunces</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;Type, List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt; &gt; Dog.ExitStateSeqeunces = new Dictionary&lt;Type, List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The value is a sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the state type of the list's key. </p>
+
+</div>
+</div>
 <a id="a8aacdfa4faa69939aa458b436def0c25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8aacdfa4faa69939aa458b436def0c25">&#9670;&nbsp;</a></span>found_Bed</h2>
 
@@ -3983,38 +3990,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A sequence of BT node checks general values which shouldn't result in state changes. Includes a check for if the dog is in good health and the others are for setting the dog's walking speed. </p>
-
-</div>
-</div>
-<a id="a01c7fdd3db284e12b3b4debf7482fca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01c7fdd3db284e12b3b4debf7482fca8">&#9670;&nbsp;</a></span>HungryEndSequences</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt; Dog.HungryEndSequences = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the Hunger state. </p>
-
-</div>
-</div>
-<a id="a27917372d879075df65b5d34445d8145"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27917372d879075df65b5d34445d8145">&#9670;&nbsp;</a></span>IdleEndSequences</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt; Dog.IdleEndSequences = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_idle.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Idle</a> state. </p>
 
 </div>
 </div>
@@ -4410,22 +4385,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af919c38fdd35fe2ecea11760c4d30efa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af919c38fdd35fe2ecea11760c4d30efa">&#9670;&nbsp;</a></span>PlayfulEndSequences</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt; Dog.PlayfulEndSequences = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_playful.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Playful</a> state. </p>
-
-</div>
-</div>
 <a id="a27ff7c01dc194fb5ddf02b82ebc9f9cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27ff7c01dc194fb5ddf02b82ebc9f9cb">&#9670;&nbsp;</a></span>swp_Hungry_State</h2>
 
@@ -4543,22 +4502,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Whether one of the dog's BT sequences have determined that the dog should swap into its <a class="el" href="class_tired.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Tired</a> state. </p>
-
-</div>
-</div>
-<a id="a3d74d306cc5feb2a855848aea17cd54e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d74d306cc5feb2a855848aea17cd54e">&#9670;&nbsp;</a></span>TiredEndSequences</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt; Dog.TiredEndSequences = new List&lt;<a class="el" href="class_b_t_sequence.html">BTSequence</a>&gt;()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A sequence of BT node checks which if true will end in a BT node to set one of the dog's state change facts to true so the next rule list check will result in the dog leaving the <a class="el" href="class_tired.html" title="Checks the dog&#39;s rules for if the state should be swapped out of, does regular speed check/bonus sequ...">Tired</a> state. </p>
 
 </div>
 </div>

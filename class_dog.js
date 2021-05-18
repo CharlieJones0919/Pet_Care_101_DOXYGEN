@@ -120,6 +120,7 @@ var class_dog =
     [ "check_Tired_State", "class_dog.html#a1a359765aae9d7ff268187196ab016d0", null ],
     [ "check_Upset", "class_dog.html#ab68e111cf4bc6db023cf6662cd285077", null ],
     [ "controller", "class_dog.html#a3b13d116dd54115a586f9bd28d5d6a8b", null ],
+    [ "ExitStateSeqeunces", "class_dog.html#ac2e91d7dd2e0857f506a5a62667129da", null ],
     [ "found_Bed", "class_dog.html#a8aacdfa4faa69939aa458b436def0c25", null ],
     [ "found_Food", "class_dog.html#a1ff56655af47a21e83b534ebb3d4d1c8", null ],
     [ "found_N_Bed", "class_dog.html#a43bf729edd96616c57adaf7acd036563", null ],
@@ -127,8 +128,6 @@ var class_dog =
     [ "found_N_Toys", "class_dog.html#a72a23f636e6d0ddb3f4115cc6f3ea521", null ],
     [ "found_Toys", "class_dog.html#abb66ceb948bfad34693cff540a3a03cd", null ],
     [ "GlobalSequences", "class_dog.html#a6a36b21a0326718fa89cf883d9201119", null ],
-    [ "HungryEndSequences", "class_dog.html#a01c7fdd3db284e12b3b4debf7482fca8", null ],
-    [ "IdleEndSequences", "class_dog.html#a27917372d879075df65b5d34445d8145", null ],
     [ "m_age", "class_dog.html#a4c2f43e95646d5e2680c86e2b8363ec3", null ],
     [ "m_animationCTRL", "class_dog.html#a246d7ae05867c8e87bc1994b394f3497", null ],
     [ "m_body", "class_dog.html#aa87c1b1bf8c5d631e85dc0ca02ae2e6c", null ],
@@ -149,11 +148,9 @@ var class_dog =
     [ "move_Running", "class_dog.html#ac77390a2d58a6c217842387d07037f6c", null ],
     [ "move_Walking", "class_dog.html#a3f3f67cad3bc923ba7ec4fd1c6a0c4d5", null ],
     [ "navigation", "class_dog.html#a3384cb35e3fd4a01c75a823f2c6412ae", null ],
-    [ "PlayfulEndSequences", "class_dog.html#af919c38fdd35fe2ecea11760c4d30efa", null ],
     [ "swp_Hungry_State", "class_dog.html#a27ff7c01dc194fb5ddf02b82ebc9f9cb", null ],
     [ "swp_Idle_State", "class_dog.html#a38e98a03b212051e462eb0e04b4c3f60", null ],
     [ "swp_Pause_State", "class_dog.html#a963ecd0b82b7a258d9db4911405bcab7", null ],
     [ "swp_Playful_State", "class_dog.html#a61fcf04b41d58a22674a9a0e835a76c5", null ],
-    [ "swp_Tired_State", "class_dog.html#a88e6d911aa26e86fed656763fb1f670a", null ],
-    [ "TiredEndSequences", "class_dog.html#a3d74d306cc5feb2a855848aea17cd54e", null ]
+    [ "swp_Tired_State", "class_dog.html#a88e6d911aa26e86fed656763fb1f670a", null ]
 ];
