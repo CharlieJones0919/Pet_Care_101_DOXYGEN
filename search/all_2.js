@@ -14,7 +14,7 @@ var searchData=
   ['careproperty_72',['CareProperty',['../class_care_property.html',1,'CareProperty'],['../class_care_property.html#a1913cac86754a38118afef85ffd20018',1,'CareProperty.CareProperty()']]],
   ['carevaluedisplayui_73',['careValueDisplayUI',['../class_data_display.html#aafb06dc864ce06584ef89acc7bd2e3e0',1,'DataDisplay']]],
   ['carevaluestates_74',['careValueStates',['../class_dog_generation.html#a82a93c5bb3cc39bfb7403e8f0b0f598f',1,'DogGeneration']]],
-  ['changesectionpage_75',['ChangeSectionPage',['../class_store_controller.html#a31447e44caaae6b89d8edde5e270fa67',1,'StoreController']]],
+  ['changesectionpage_75',['ChangeSectionPage',['../class_store_controller.html#a79c53c1f0ac7d0c4e70824db48ffd65a',1,'StoreController']]],
   ['check_5fallgood_76',['check_AllGood',['../class_dog.html#a2c62f2fe4ea3dc4ce202dbd57c05dfef',1,'Dog']]],
   ['check_5fdistressed_77',['check_Distressed',['../class_dog.html#a979be13d6cfffcac11b83fa2799ae323',1,'Dog']]],
   ['check_5fdying_78',['check_Dying',['../class_dog.html#ae59c46293c5922ca4f01a086c8b3de0f',1,'Dog']]],

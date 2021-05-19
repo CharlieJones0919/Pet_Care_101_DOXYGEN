@@ -1,11 +1,11 @@
 var class_store_controller =
 [
-    [ "ChangeSectionPage", "class_store_controller.html#a31447e44caaae6b89d8edde5e270fa67", null ],
-    [ "PurchaseAttempt", "class_store_controller.html#a8ec2fa7b7e3c5d5e3cb0c4186017fc7e", null ],
-    [ "SectionSelected", "class_store_controller.html#a9f11eab73154aa702a47b511bc3d1a4a", null ],
-    [ "SetFocusItem", "class_store_controller.html#ac10c72216affc240bcbadb0aa51e4e79", null ],
-    [ "Start", "class_store_controller.html#acfc06374723ef29d41526ab42c34d72d", null ],
-    [ "UpdateDisplayedItems", "class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1", null ],
+    [ "ChangeSectionPage", "class_store_controller.html#a79c53c1f0ac7d0c4e70824db48ffd65a", null ],
+    [ "PurchaseAttempt", "class_store_controller.html#a9dcdf3d73b8dc9d72ea131d1fb465c4b", null ],
+    [ "SectionSelected", "class_store_controller.html#a860362e05c7e6f483389a0729395630b", null ],
+    [ "SetFocusItem", "class_store_controller.html#a60062c7bd4766a9489e42280093fbff8", null ],
+    [ "Start", "class_store_controller.html#aadc7e0611364d489e7c0726ef3b1b644", null ],
+    [ "UpdateDisplayedItems", "class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3", null ],
     [ "backPageButton", "class_store_controller.html#ab223ccacd04d50407ab5e5bb8896d4ed", null ],
     [ "baseTab", "class_store_controller.html#a2ac62613a1c7c8e7874cf23f497751c8", null ],
     [ "controller", "class_store_controller.html#a4195bf237b6070c56b584e7d77e3729c", null ],

@@ -108,28 +108,28 @@ Inheritance diagram for StoreController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8ec2fa7b7e3c5d5e3cb0c4186017fc7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a8ec2fa7b7e3c5d5e3cb0c4186017fc7e">PurchaseAttempt</a> ()</td></tr>
-<tr class="memdesc:a8ec2fa7b7e3c5d5e3cb0c4186017fc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the store menu Purchase Button when clicked/tapped. If the player currently has enough money for the <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a> <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> currently selected, and there are positions available to place Items in, an instance of that <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> will be activated and positioned on the world floor.  <a href="class_store_controller.html#a8ec2fa7b7e3c5d5e3cb0c4186017fc7e">More...</a><br /></td></tr>
-<tr class="separator:a8ec2fa7b7e3c5d5e3cb0c4186017fc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac10c72216affc240bcbadb0aa51e4e79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#ac10c72216affc240bcbadb0aa51e4e79">SetFocusItem</a> (<a class="el" href="class_item_slot.html">ItemSlot</a> focusSlot)</td></tr>
-<tr class="memdesc:ac10c72216affc240bcbadb0aa51e4e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a> toggles when clicked/tapped, with itself as the parameter. Sets the item display UI to the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> being referenced/displayed in that <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a>. <br  />
-  <a href="class_store_controller.html#ac10c72216affc240bcbadb0aa51e4e79">More...</a><br /></td></tr>
-<tr class="separator:ac10c72216affc240bcbadb0aa51e4e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f11eab73154aa702a47b511bc3d1a4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a9f11eab73154aa702a47b511bc3d1a4a">SectionSelected</a> (<a class="el" href="class_store_section.html">StoreSection</a> tabButton)</td></tr>
-<tr class="memdesc:a9f11eab73154aa702a47b511bc3d1a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> toggles when clicked/tapped, with itself as the parameter. Sets currentSection to that tab's ItemType catergory then updates the ItemSlots' Items to be the ItemList for that section by calling <a class="el" href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>.  <a href="class_store_controller.html#a9f11eab73154aa702a47b511bc3d1a4a">More...</a><br /></td></tr>
-<tr class="separator:a9f11eab73154aa702a47b511bc3d1a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31447e44caaae6b89d8edde5e270fa67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a31447e44caaae6b89d8edde5e270fa67">ChangeSectionPage</a> (bool turnRight)</td></tr>
-<tr class="memdesc:a31447e44caaae6b89d8edde5e270fa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the page back/next buttons when clicked/tapped, with the bool as true for the next button and false for the back button. Adds or subtracts 1 from the currentSectionPage value then updates the ItemSlots' Items to the <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> Items of that page by calling <a class="el" href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>.  <a href="class_store_controller.html#a31447e44caaae6b89d8edde5e270fa67">More...</a><br /></td></tr>
-<tr class="separator:a31447e44caaae6b89d8edde5e270fa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dcdf3d73b8dc9d72ea131d1fb465c4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a9dcdf3d73b8dc9d72ea131d1fb465c4b">PurchaseAttempt</a> ()</td></tr>
+<tr class="memdesc:a9dcdf3d73b8dc9d72ea131d1fb465c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the store menu Purchase Button when clicked/tapped. If the player currently has enough money for the <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a> <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> currently selected, and there are positions available to place Items in, an instance of that <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> will be activated and positioned on the world floor.  <a href="class_store_controller.html#a9dcdf3d73b8dc9d72ea131d1fb465c4b">More...</a><br /></td></tr>
+<tr class="separator:a9dcdf3d73b8dc9d72ea131d1fb465c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60062c7bd4766a9489e42280093fbff8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a60062c7bd4766a9489e42280093fbff8">SetFocusItem</a> (<a class="el" href="class_item_slot.html">ItemSlot</a> focusSlot)</td></tr>
+<tr class="memdesc:a60062c7bd4766a9489e42280093fbff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a> toggles when clicked/tapped, with itself as the parameter. Sets the item display UI to the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> being referenced/displayed in that <a class="el" href="class_item_slot.html" title="Stores a reference to an Item class along with references to the slot&#39;s UI elements....">ItemSlot</a>. <br  />
+  <a href="class_store_controller.html#a60062c7bd4766a9489e42280093fbff8">More...</a><br /></td></tr>
+<tr class="separator:a60062c7bd4766a9489e42280093fbff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860362e05c7e6f483389a0729395630b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a860362e05c7e6f483389a0729395630b">SectionSelected</a> (<a class="el" href="class_store_section.html">StoreSection</a> tabButton)</td></tr>
+<tr class="memdesc:a860362e05c7e6f483389a0729395630b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> toggles when clicked/tapped, with itself as the parameter. Sets currentSection to that tab's ItemType catergory then updates the ItemSlots' Items to be the ItemList for that section by calling <a class="el" href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>.  <a href="class_store_controller.html#a860362e05c7e6f483389a0729395630b">More...</a><br /></td></tr>
+<tr class="separator:a860362e05c7e6f483389a0729395630b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c53c1f0ac7d0c4e70824db48ffd65a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a79c53c1f0ac7d0c4e70824db48ffd65a">ChangeSectionPage</a> (bool turnRight)</td></tr>
+<tr class="memdesc:a79c53c1f0ac7d0c4e70824db48ffd65a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the page back/next buttons when clicked/tapped, with the bool as true for the next button and false for the back button. Adds or subtracts 1 from the currentSectionPage value then updates the ItemSlots' Items to the <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> Items of that page by calling <a class="el" href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>.  <a href="class_store_controller.html#a79c53c1f0ac7d0c4e70824db48ffd65a">More...</a><br /></td></tr>
+<tr class="separator:a79c53c1f0ac7d0c4e70824db48ffd65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:acfc06374723ef29d41526ab42c34d72d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#acfc06374723ef29d41526ab42c34d72d">Start</a> ()</td></tr>
-<tr class="memdesc:acfc06374723ef29d41526ab42c34d72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> prefabs from the assets directory and instantiates tabs for each of the ItemType enums. Makes StoreSections for each ItemType/tab and populates their <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> lists with the retrieved <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> prefabs of the same ItemType. Also sets all the possible <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> placement positions based on the ground's dimensions and saves them to <a class="el" href="class_controller.html" title="Keeps references to widely used objects and scripts for other classes to use. Allows for game time co...">Controller</a>'s list of available placement positions.  <a href="class_store_controller.html#acfc06374723ef29d41526ab42c34d72d">More...</a><br /></td></tr>
-<tr class="separator:acfc06374723ef29d41526ab42c34d72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d2450ebe2947de134fbc286b80e19d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1">UpdateDisplayedItems</a> ()</td></tr>
-<tr class="memdesc:a1d2450ebe2947de134fbc286b80e19d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ItemSlots' reference Items to the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> list of the current <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> and current page number of that list.  <a href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1">More...</a><br /></td></tr>
-<tr class="separator:a1d2450ebe2947de134fbc286b80e19d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc7e0611364d489e7c0726ef3b1b644"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#aadc7e0611364d489e7c0726ef3b1b644">Start</a> ()</td></tr>
+<tr class="memdesc:aadc7e0611364d489e7c0726ef3b1b644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> prefabs from the assets directory and instantiates tabs for each of the ItemType enums. Makes StoreSections for each ItemType/tab and populates their <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> lists with the retrieved <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> prefabs of the same ItemType. Also sets all the possible <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> placement positions based on the ground's dimensions and saves them to <a class="el" href="class_controller.html" title="Keeps references to widely used objects and scripts for other classes to use. Allows for game time co...">Controller</a>'s list of available placement positions.  <a href="class_store_controller.html#aadc7e0611364d489e7c0726ef3b1b644">More...</a><br /></td></tr>
+<tr class="separator:aadc7e0611364d489e7c0726ef3b1b644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d94da259a78b7239a9b8d4bf865cdf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3">UpdateDisplayedItems</a> ()</td></tr>
+<tr class="memdesc:a5d94da259a78b7239a9b8d4bf865cdf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ItemSlots' reference Items to the <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a> list of the current <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> and current page number of that list.  <a href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3">More...</a><br /></td></tr>
+<tr class="separator:a5d94da259a78b7239a9b8d4bf865cdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -198,8 +198,8 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Controls the Items displayed in the Store menu. Instantiates said Items and manages the store UI to output their data values and naviation through said UI for viewing the different types of <a class="el" href="class_item.html" title="A class with almost all of its pertinant values serialized so prefabs of instances can easily/dynamic...">Item</a>. Allows for the activation and placement of ItemInstances in the world when purchased using in-game money. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a31447e44caaae6b89d8edde5e270fa67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31447e44caaae6b89d8edde5e270fa67">&#9670;&nbsp;</a></span>ChangeSectionPage()</h2>
+<a id="a79c53c1f0ac7d0c4e70824db48ffd65a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c53c1f0ac7d0c4e70824db48ffd65a">&#9670;&nbsp;</a></span>ChangeSectionPage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +208,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.ChangeSectionPage </td>
+          <td class="memname">void StoreController.ChangeSectionPage </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>turnRight</em></td><td>)</td>
@@ -222,12 +222,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called by the page back/next buttons when clicked/tapped, with the bool as true for the next button and false for the back button. Adds or subtracts 1 from the currentSectionPage value then updates the ItemSlots' Items to the <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> Items of that page by calling <a class="el" href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>. </p>
+<p>Called by the page back/next buttons when clicked/tapped, with the bool as true for the next button and false for the back button. Adds or subtracts 1 from the currentSectionPage value then updates the ItemSlots' Items to the <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> Items of that page by calling <a class="el" href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>. </p>
 
 </div>
 </div>
-<a id="a8ec2fa7b7e3c5d5e3cb0c4186017fc7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ec2fa7b7e3c5d5e3cb0c4186017fc7e">&#9670;&nbsp;</a></span>PurchaseAttempt()</h2>
+<a id="a9dcdf3d73b8dc9d72ea131d1fb465c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dcdf3d73b8dc9d72ea131d1fb465c4b">&#9670;&nbsp;</a></span>PurchaseAttempt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +236,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.PurchaseAttempt </td>
+          <td class="memname">void StoreController.PurchaseAttempt </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -253,8 +253,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9f11eab73154aa702a47b511bc3d1a4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f11eab73154aa702a47b511bc3d1a4a">&#9670;&nbsp;</a></span>SectionSelected()</h2>
+<a id="a860362e05c7e6f483389a0729395630b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860362e05c7e6f483389a0729395630b">&#9670;&nbsp;</a></span>SectionSelected()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +263,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.SectionSelected </td>
+          <td class="memname">void StoreController.SectionSelected </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_store_section.html">StoreSection</a>&#160;</td>
           <td class="paramname"><em>tabButton</em></td><td>)</td>
@@ -277,12 +277,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called by <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> toggles when clicked/tapped, with itself as the parameter. Sets currentSection to that tab's ItemType catergory then updates the ItemSlots' Items to be the ItemList for that section by calling <a class="el" href="class_store_controller.html#a1d2450ebe2947de134fbc286b80e19d1" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>. </p>
+<p>Called by <a class="el" href="class_store_section.html" title="A class for storing all the Items and number of pages a store &quot;section&quot; has. A section is just all th...">StoreSection</a> toggles when clicked/tapped, with itself as the parameter. Sets currentSection to that tab's ItemType catergory then updates the ItemSlots' Items to be the ItemList for that section by calling <a class="el" href="class_store_controller.html#a5d94da259a78b7239a9b8d4bf865cdf3" title="Sets the ItemSlots&#39; reference Items to the Item list of the current StoreSection and current page num...">UpdateDisplayedItems()</a>. </p>
 
 </div>
 </div>
-<a id="ac10c72216affc240bcbadb0aa51e4e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac10c72216affc240bcbadb0aa51e4e79">&#9670;&nbsp;</a></span>SetFocusItem()</h2>
+<a id="a60062c7bd4766a9489e42280093fbff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60062c7bd4766a9489e42280093fbff8">&#9670;&nbsp;</a></span>SetFocusItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.SetFocusItem </td>
+          <td class="memname">void StoreController.SetFocusItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_item_slot.html">ItemSlot</a>&#160;</td>
           <td class="paramname"><em>focusSlot</em></td><td>)</td>
@@ -310,8 +310,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acfc06374723ef29d41526ab42c34d72d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfc06374723ef29d41526ab42c34d72d">&#9670;&nbsp;</a></span>Start()</h2>
+<a id="aadc7e0611364d489e7c0726ef3b1b644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc7e0611364d489e7c0726ef3b1b644">&#9670;&nbsp;</a></span>Start()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +320,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.Start </td>
+          <td class="memname">void StoreController.Start </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -337,8 +337,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d2450ebe2947de134fbc286b80e19d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d2450ebe2947de134fbc286b80e19d1">&#9670;&nbsp;</a></span>UpdateDisplayedItems()</h2>
+<a id="a5d94da259a78b7239a9b8d4bf865cdf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d94da259a78b7239a9b8d4bf865cdf3">&#9670;&nbsp;</a></span>UpdateDisplayedItems()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +347,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StoreController.UpdateDisplayedItems </td>
+          <td class="memname">void StoreController.UpdateDisplayedItems </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

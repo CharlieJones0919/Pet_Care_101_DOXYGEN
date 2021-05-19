@@ -7,7 +7,7 @@ var searchData=
   ['cannotfindfood_769',['CannotFindFood',['../class_dog.html#a4c00213312f6db68f6590c5e90e80bdd',1,'Dog']]],
   ['cannotfindtoys_770',['CannotFindToys',['../class_dog.html#aee17df33cad2d5cd0ff6197aff5458a9',1,'Dog']]],
   ['careproperty_771',['CareProperty',['../class_care_property.html#a1913cac86754a38118afef85ffd20018',1,'CareProperty']]],
-  ['changesectionpage_772',['ChangeSectionPage',['../class_store_controller.html#a31447e44caaae6b89d8edde5e270fa67',1,'StoreController']]],
+  ['changesectionpage_772',['ChangeSectionPage',['../class_store_controller.html#a79c53c1f0ac7d0c4e70824db48ffd65a',1,'StoreController']]],
   ['checkcameramovement_5fmobile_773',['CheckCameraMovement_Mobile',['../class_camera_control.html#ab6689c5033d29eee890ede2ef6a08a2c',1,'CameraControl']]],
   ['checkdogtap_5feditor_774',['CheckDogTap_Editor',['../class_camera_control.html#afd8b093968a1685a9b9af4ebaa0d48bc',1,'CameraControl']]],
   ['checkdogtap_5fmobile_775',['CheckDogTap_Mobile',['../class_camera_control.html#a632115d91f36758747bd322bf756940e',1,'CameraControl']]],
