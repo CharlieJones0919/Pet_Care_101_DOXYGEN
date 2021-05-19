@@ -50,7 +50,7 @@ var NAVTREEINDEX =
 [
 "_a_s_node_8cs.html",
 "class_controller.html#a9a80e7dbecc54385bff20ded6f78553e",
-"class_game_time.html#adb57edf23afccb00575784c9d4087b49",
+"class_game_time.html#ad0cf58eef2c840c397b88151a37ae3a3",
 "functions_func.html"
 ];
 

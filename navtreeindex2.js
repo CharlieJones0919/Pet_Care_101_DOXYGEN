@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"class_game_time.html#ad0cf58eef2c840c397b88151a37ae3a3":[1,0,14,17],
 "class_game_time.html#adb57edf23afccb00575784c9d4087b49":[1,0,14,22],
 "class_game_time.html#adcb39fe0d76d904d5f815b612c9912a0":[1,0,14,11],
 "class_game_time.html#ae68b0b70e9230f6e67a4afabe17ae78c":[1,0,14,26],
@@ -241,13 +242,12 @@ var NAVTREEINDEX2 =
 "dir_e310c29cb77ad14a39e0cb36741bddec.html":[2,0,0,0,0,0,3],
 "dir_e6f4272beeeab36c49262d721e5bbb4c.html":[2,0,0,0,0,0],
 "files.html":[2,0],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_b.html":[1,3,0,1],
 "functions_c.html":[1,3,0,2],
 "functions_d.html":[1,3,0,3],
 "functions_e.html":[1,3,0,4],
 "functions_enum.html":[1,3,3],
-"functions_f.html":[1,3,0,5],
-"functions_func.html":[1,3,1]
+"functions_f.html":[1,3,0,5]
 };
