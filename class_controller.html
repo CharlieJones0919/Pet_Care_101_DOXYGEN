@@ -161,6 +161,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adcee4fdef4b772edd189973091d06623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#adcee4fdef4b772edd189973091d06623">NotFocusedOnDog</a> ()</td></tr>
 <tr class="memdesc:adcee4fdef4b772edd189973091d06623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all dogs to not be in focus if the DogInfoPanel is closed.  <a href="class_controller.html#adcee4fdef4b772edd189973091d06623">More...</a><br /></td></tr>
 <tr class="separator:adcee4fdef4b772edd189973091d06623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae188f77f76ea0acf82d2becf7e892f11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#ae188f77f76ea0acf82d2becf7e892f11">SetFocusButtonDog</a> (bool next)</td></tr>
+<tr class="memdesc:ae188f77f76ea0acf82d2becf7e892f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the next/back buttons for the dog focus button are pressed, to get the next dog in the ordered list.  <a href="class_controller.html#ae188f77f76ea0acf82d2becf7e892f11">More...</a><br /></td></tr>
+<tr class="separator:ae188f77f76ea0acf82d2becf7e892f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42667225216385f81823f960983ef9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#ae42667225216385f81823f960983ef9f">FocusDogButtonClick</a> ()</td></tr>
+<tr class="separator:ae42667225216385f81823f960983ef9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -210,11 +215,20 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:af3ac7b2d3b854940ea1ec71102767091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Textboxes the player's money value is outputted to.  <a href="class_controller.html#af3ac7b2d3b854940ea1ec71102767091">More...</a><br /></td></tr>
 <tr class="separator:af3ac7b2d3b854940ea1ec71102767091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6ec9c9a5a1995ec7afc8462a559507"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; GameObject, <a class="el" href="class_dog.html">Dog</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a3b6ec9c9a5a1995ec7afc8462a559507">allDogs</a> = new Dictionary&lt;GameObject, <a class="el" href="class_dog.html">Dog</a>&gt;()</td></tr>
-<tr class="memdesc:a3b6ec9c9a5a1995ec7afc8462a559507"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary of all the player's dogs with their GameObjects as their key for ease of reference.  <a href="class_controller.html#a3b6ec9c9a5a1995ec7afc8462a559507">More...</a><br /></td></tr>
+<tr class="memdesc:a3b6ec9c9a5a1995ec7afc8462a559507"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary of all the player's dogs with their GameObjects as their keys for ease of reference.  <a href="class_controller.html#a3b6ec9c9a5a1995ec7afc8462a559507">More...</a><br /></td></tr>
 <tr class="separator:a3b6ec9c9a5a1995ec7afc8462a559507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab32810dab0300ba1b10c77ae74ee25f5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dog.html">Dog</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#ab32810dab0300ba1b10c77ae74ee25f5">orderedListOfDogs</a> = new List&lt;<a class="el" href="class_dog.html">Dog</a>&gt;()</td></tr>
+<tr class="memdesc:ab32810dab0300ba1b10c77ae74ee25f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ordered list of all the player's dogs for iterating through.  <a href="class_controller.html#ab32810dab0300ba1b10c77ae74ee25f5">More...</a><br /></td></tr>
+<tr class="separator:ab32810dab0300ba1b10c77ae74ee25f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c1ccc6912bb371e612d95eebd0475aa"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>, List&lt; <a class="el" href="class_item.html">Item</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a8c1ccc6912bb371e612d95eebd0475aa">itemPools</a> = new Dictionary&lt;<a class="el" href="_store_controller_8cs.html#a443f647757dde85043b49343f5cbe66b">ItemType</a>, List&lt;<a class="el" href="class_item.html">Item</a>&gt;&gt;()</td></tr>
 <tr class="memdesc:a8c1ccc6912bb371e612d95eebd0475aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the Items generated by the store controller and their ItemType as a key for ease of locating Items of a specific type.  <a href="class_controller.html#a8c1ccc6912bb371e612d95eebd0475aa">More...</a><br /></td></tr>
 <tr class="separator:a8c1ccc6912bb371e612d95eebd0475aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5726e05e262dc71f0c3d17754de674"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aab5726e05e262dc71f0c3d17754de674">dogFocusButtonName</a> = null</td></tr>
+<tr class="memdesc:aab5726e05e262dc71f0c3d17754de674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the name text on the dog focus button to display the current dog the button would cause the player to focus on.  <a href="class_controller.html#aab5726e05e262dc71f0c3d17754de674">More...</a><br /></td></tr>
+<tr class="separator:aab5726e05e262dc71f0c3d17754de674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa187ab16fc2cd572e21c2a78081d25cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aa187ab16fc2cd572e21c2a78081d25cf">currentFocusButtonDog</a> = 0</td></tr>
+<tr class="memdesc:aa187ab16fc2cd572e21c2a78081d25cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current dog the focus button would focus on when clicked.  <a href="class_controller.html#aa187ab16fc2cd572e21c2a78081d25cf">More...</a><br /></td></tr>
+<tr class="separator:aa187ab16fc2cd572e21c2a78081d25cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -392,6 +406,31 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Increases the game's time scale to speed up the game to it's maximum value. Called by the fast forward button. </p>
+
+</div>
+</div>
+<a id="ae42667225216385f81823f960983ef9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42667225216385f81823f960983ef9f">&#9670;&nbsp;</a></span>FocusDogButtonClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controller.FocusDogButtonClick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -750,6 +789,34 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae188f77f76ea0acf82d2becf7e892f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae188f77f76ea0acf82d2becf7e892f11">&#9670;&nbsp;</a></span>SetFocusButtonDog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controller.SetFocusButtonDog </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>next</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the next/back buttons for the dog focus button are pressed, to get the next dog in the ordered list. </p>
+
+</div>
+</div>
 <a id="a38fdf81d20160e03c3d9cb5cb509e6ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38fdf81d20160e03c3d9cb5cb509e6ad">&#9670;&nbsp;</a></span>UpdateMoneyValue()</h2>
 
@@ -799,7 +866,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A dictionary of all the player's dogs with their GameObjects as their key for ease of reference. </p>
+<p>A dictionary of all the player's dogs with their GameObjects as their keys for ease of reference. </p>
 
 </div>
 </div>
@@ -883,6 +950,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa187ab16fc2cd572e21c2a78081d25cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa187ab16fc2cd572e21c2a78081d25cf">&#9670;&nbsp;</a></span>currentFocusButtonDog</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Controller.currentFocusButtonDog = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current dog the focus button would focus on when clicked. </p>
+
+</div>
+</div>
 <a id="abdecc3cbc7ed830c70047bc90f3456cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abdecc3cbc7ed830c70047bc90f3456cd">&#9670;&nbsp;</a></span>defaultNULL</h2>
 
@@ -896,6 +987,30 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>An empty game object for when game objects shouldn't be set to any actual reference anymore, but unity throws errors if game objects are set to null during runtime. </p>
+
+</div>
+</div>
+<a id="aab5726e05e262dc71f0c3d17754de674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5726e05e262dc71f0c3d17754de674">&#9670;&nbsp;</a></span>dogFocusButtonName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text Controller.dogFocusButtonName = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the name text on the dog focus button to display the current dog the button would cause the player to focus on. </p>
 
 </div>
 </div>
@@ -1016,6 +1131,30 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximum fast forward speed. </p>
+
+</div>
+</div>
+<a id="ab32810dab0300ba1b10c77ae74ee25f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab32810dab0300ba1b10c77ae74ee25f5">&#9670;&nbsp;</a></span>orderedListOfDogs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_dog.html">Dog</a>&gt; Controller.orderedListOfDogs = new List&lt;<a class="el" href="class_dog.html">Dog</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>An ordered list of all the player's dogs for iterating through. </p>
 
 </div>
 </div>

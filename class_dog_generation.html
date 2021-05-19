@@ -116,11 +116,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2395ab38a648d7685ca8abd2b5c39a04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog_generation.html#a2395ab38a648d7685ca8abd2b5c39a04">DEBUG_GenerateAllDogs</a> ()</td></tr>
-<tr class="memdesc:a2395ab38a648d7685ca8abd2b5c39a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for actual use. Just an informal function for debugging purposes to check all dogs are generated correctly.  <a href="class_dog_generation.html#a2395ab38a648d7685ca8abd2b5c39a04">More...</a><br /></td></tr>
-<tr class="separator:a2395ab38a648d7685ca8abd2b5c39a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597953726ad45db523c0820f5b86a932"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog_generation.html#a597953726ad45db523c0820f5b86a932">DEBUG_GenerateNonPresentBreed</a> ()</td></tr>
+<tr class="memdesc:a597953726ad45db523c0820f5b86a932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for actual use. Just an informal function for debugging purposes to check all dogs are generated correctly. Generates the next breed in the enum list not currently existing on the map.  <a href="class_dog_generation.html#a597953726ad45db523c0820f5b86a932">More...</a><br /></td></tr>
+<tr class="separator:a597953726ad45db523c0820f5b86a932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52def801abcc15850894ca6bb886b05c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog_generation.html#a52def801abcc15850894ca6bb886b05c">DEBUG_GenerateDogBreed</a> (<a class="el" href="_dog_generation_8cs.html#adc2570a4a89d7183efde48a8d2395358">DogBreed</a> type)</td></tr>
-<tr class="memdesc:a52def801abcc15850894ca6bb886b05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for actual use. Just an informal function for debugging purposes to check an individual breed is generated correctly.  <a href="class_dog_generation.html#a52def801abcc15850894ca6bb886b05c">More...</a><br /></td></tr>
+<tr class="memdesc:a52def801abcc15850894ca6bb886b05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for actual use. Just an informal function for debugging purposes to check an individual breed is generated correctly. Generates a breed of a specified type.  <a href="class_dog_generation.html#a52def801abcc15850894ca6bb886b05c">More...</a><br /></td></tr>
 <tr class="separator:a52def801abcc15850894ca6bb886b05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b11c8fedb609e7f31dbe9f31c71665a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dog_generation.html#a3b11c8fedb609e7f31dbe9f31c71665a">GenerateRandomNewDog</a> ()</td></tr>
 <tr class="memdesc:a3b11c8fedb609e7f31dbe9f31c71665a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_game_time.html" title="Keeps game-time (system time modified by an speed adjustment for gameification) and calls time trigge...">GameTime</a> to generate a new dog of a random breed from the DogBreed enum list.  <a href="class_dog_generation.html#a3b11c8fedb609e7f31dbe9f31c71665a">More...</a><br /></td></tr>
@@ -369,33 +369,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2395ab38a648d7685ca8abd2b5c39a04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2395ab38a648d7685ca8abd2b5c39a04">&#9670;&nbsp;</a></span>DEBUG_GenerateAllDogs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DogGeneration.DEBUG_GenerateAllDogs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Not for actual use. Just an informal function for debugging purposes to check all dogs are generated correctly. </p>
-
-</div>
-</div>
 <a id="a52def801abcc15850894ca6bb886b05c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52def801abcc15850894ca6bb886b05c">&#9670;&nbsp;</a></span>DEBUG_GenerateDogBreed()</h2>
 
@@ -420,7 +393,34 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Not for actual use. Just an informal function for debugging purposes to check an individual breed is generated correctly. </p>
+<p>Not for actual use. Just an informal function for debugging purposes to check an individual breed is generated correctly. Generates a breed of a specified type. </p>
+
+</div>
+</div>
+<a id="a597953726ad45db523c0820f5b86a932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597953726ad45db523c0820f5b86a932">&#9670;&nbsp;</a></span>DEBUG_GenerateNonPresentBreed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DogGeneration.DEBUG_GenerateNonPresentBreed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Not for actual use. Just an informal function for debugging purposes to check all dogs are generated correctly. Generates the next breed in the enum list not currently existing on the map. </p>
 
 </div>
 </div>
